@@ -1,0 +1,19 @@
+{
+  "name": "broken-mouse",
+  "version": "0.0.7",
+  "description": "Broken Mouse Wheel",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:kenocell/browser-extensions/broken-mouse.git"
+  },
+  "author": "Fotis Tsagkanas <tsfotis@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^2.1.0"
+  }
+}
