@@ -3,7 +3,7 @@
   "version": "0.0.7",
   "manifest_version": 2,
   "description": "Broken Mouse Wheel",
-  "homepage_url": "https://kenocell.gitlab.io/",
+  "homepage_url": "http://kenocell.com/",
   "icons": {
     "16": "icons/icon16.png",
     "19": "icons/icon19.png",
