@@ -33,9 +33,10 @@ function startTrack() {
 function getElement() {
 
     var html = `<div style="height: 10px;width: 10px;top: ${point.y}px;left: ${point.x}px;position: fixed;background-color: black;border-radius: 10px;"></div>`;
-    // document.body.append(html);
+    var div = document.createElement('DIV')
+    div.style = `height: 10px;width: 10px;top: ${point.y}px;left: ${point.x}px;position: fixed;background-color: black;border-radius: 10px;`
     e = document.createElement('span')
-    e.innerHTML = html
+    e.appendChild(div)
     return;
 }
 
